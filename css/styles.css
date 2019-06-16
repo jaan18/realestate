@@ -9,6 +9,10 @@ body {
 }
 
 /* Globales */
+img {
+  max-width: 100%;
+}
+
 .contenedor {
   max-width: 120rem;
   margin: 0 auto;
@@ -46,7 +50,7 @@ h4 {
 
 /* Header */
 .site-header.inicio {
-  background-image: url(/DesarrolloWeb/realEstate/img/header.jpg);
+  background-image: url(/DesarrolloWebCompleto/realEstate/img/header.jpg);
   background-position: center center;
   background-size: cover;
   height: 100vh;
@@ -58,47 +62,47 @@ h4 {
   flex-direction: column;
   justify-content: space-between;
 }
-
 .contenido-header h1 {
   color: white;
   padding-top: 2rem;
   max-width: 60rem;
   line-height: 2;
 }
-
 .barra {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding-top: 3rem;
 }
-
 .navegacion a {
   color: white;
   text-decoration: none;
   font-size: 1.8rem;
   margin-right: 2rem;
 }
-
 .navegacion a:hover {
   color: black;
 }
-
 .navegacion a:last-of-type {
   margin: 0;
 }
-
 /* Iconos Nosotros */
 .iconos-nosotros {
   display: flex;
   justify-content: space-between;
 }
-
 .icono {
   flex-basis: calc(33.3% - 1rem);
   text-align: center;
 }
-
 .icono h3 {
   text-transform: uppercase;
+}
+/* Anuncios */
+.contenedor-anuncios {
+  display: flex;
+  justify-content: space-between;
+}
+.anuncio {
+  flex-basis: calc(33.3% - 1rem);
 }
