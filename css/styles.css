@@ -159,3 +159,22 @@ p {
   display: flex;
   justify-content: flex-end;
 }
+
+/* Contacto Home */
+.imagen-contacto {
+  background-image: url(/DesarrolloWebCompleto/realEstate/img/encuentra.jpg);
+  height: 40 rem;
+  background-position: center center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+}
+
+.contenido-contacto {
+  flex: 1;
+  color: white;
+}
+
+.contenido-contacto p {
+  font-size: 1.8rem;
+}
