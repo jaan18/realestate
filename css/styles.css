@@ -1,5 +1,12 @@
 html {
+  box-sizing: border-box;
   font-size: 62.5%; /* Reset para Rems 62.5% = 10px de 16 px*/
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
 }
 
 body {
@@ -46,6 +53,31 @@ h4 {
 
 .centrar-texto {
   text-align: center;
+}
+
+.d-block {
+  display: block !important;
+}
+
+/* Botones */
+.boton {
+  color: white;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 1.8rem;
+
+  margin-top: 3rem;
+  padding: 1rem 3rem;
+  display: inline-block;
+  text-align: center;
+}
+
+.boton-amarillo {
+  background-color: #e08709;
+}
+
+.boton-verde {
+  background-color: #71b100;
 }
 
 /* Header */
@@ -113,6 +145,17 @@ h4 {
   padding: 2rem;
 }
 
-.contenido-anuncio h3, p {
+.contenido-anuncio h3,
+p {
   margin: 0;
+}
+
+.precio {
+  color: #71b100;
+  font-weight: 700;
+}
+
+.ver-todas {
+  display: flex;
+  justify-content: flex-end;
 }
